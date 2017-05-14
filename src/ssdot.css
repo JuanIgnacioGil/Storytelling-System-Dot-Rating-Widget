@@ -4,6 +4,8 @@ ss-rating {
     display: block;
     max-width: 20em;
     padding: 0.1em 0.2em;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .ss-title {

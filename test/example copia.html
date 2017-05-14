@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Vampiro</title>
+        <meta charset="UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+		<link rel='stylesheet' href='../src/ssdot.css' type='text/css' />
+        <script src="../src/ssdot.js"></script>
+
+				<style>
+            h3 { font-family: 'Medula One', cursive;
+                 font-size: 36px;
+                 font-weight: 100; }
+            em { font-family: 'Special Elite', cursive;
+                 font-size: 18px;
+                 font-weight: 100;
+                 font-style: normal; }
+
+						.container {display: flex;}
+
+						.container > div {flex: 1; /*grow*/}
+
+						.divToAlignTo {
+								width: 250px;
+								border-color: #A32222;
+								border-style: solid;
+								border-width: medium;
+							}
+        </style>
+    </head>
+
+	<body style="background-color: lightgrey;">
+        <h1 align='center'>Vampiro: La Mascarada</h1>
+
+				<hr>
+
+				<div id="Descripcion" class="container">
+
+					<div id="Nombre">
+							<em>Nombre:</em><br>
+							<em>Jugador:</em><br>
+							<em>Crónica: Firenze, 1923</em><br>
+					</div>
+
+					<div id="Naturaleza">
+						<em>Naturaleza:</em><br>
+						<em>Conducta:</em><br>
+						<em>Concepto:</em><br>
+					</div>
+
+					<div id="Generacion">
+						<em>Generación:</em><br>
+						<em>Sire:</em><br>
+						<em>Título:</em><br>
+					</div>
+
+				</div>
+
+				<hr>
+
+				<h2 align="center">Atributos</div>
+
+				<div id="Atributos" class="container">
+
+					<div id="Físicos">
+						<h3>Físicos</h3>
+						<ss-rating id="Fuerza" data-dot-title="Fuerza" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Destreza" data-dot-title="Destreza" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Resistencia" data-dot-title="Resistencia" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+					</div>
+
+					<div id="Sociales">
+						<h3>Sociales</h3>
+						<ss-rating id="Carisma" data-dot-title="Carisma" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Manipulación" data-dot-title="Manipulación" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Apariencia" data-dot-title="Apariencia" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+					</div>
+
+					<div id="Mentales">
+						<h3>Mentales</h3>
+						<ss-rating id="Percepción" data-dot-title="Percepción" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Inteligencia" data-dot-title="Inteligencia" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Astucia" data-dot-title="Astucia" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+					</div>
+
+				</div>
+
+				<hr>
+
+				<h2 align="center">Habilidades</div>
+
+				<div id="Habilidades" class="container">
+
+					<div id="Talentos">
+						<h3>Talentos</h3>
+						<ss-rating id="Alerta" data-dot-title="Alerta" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Atletismo" data-dot-title="Atletismo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Pelear" data-dot-title="Pelear" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Esquivar" data-dot-title="Esquivar" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Empatía" data-dot-title="Empatía" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Expresión" data-dot-title="Expresión" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Intimidación" data-dot-title="Intimidación" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Liderazgo" data-dot-title="Liderazgo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Callejeo" data-dot-title="Callejeo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Subterfugio" data-dot-title="Subterfugio" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+					</div>
+
+					<div id="Técnicas">
+						<h3>Técnicas</h3>
+						<ss-rating id="Trato con animales" data-dot-title="Trato con animales" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Técnicas" data-dot-title="Técnicas" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Conducir" data-dot-title="Conducir" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Etiqueta" data-dot-title="Etiqueta" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Empatía" data-dot-title="Empatía" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Expresión" data-dot-title="Expresión" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Intimidación" data-dot-title="Intimidación" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Liderazgo" data-dot-title="Liderazgo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Callejeo" data-dot-title="Callejeo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Subterfugio" data-dot-title="Subterfugio" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+					</div>
+
+
+
+				</div>
+
+				<hr>
+
+
+
+
+
+				<em>Basic Attribute Example (Minimum of 1 dot)</em>
+        <br />
+        <ss-rating id="Manipulation" data-dot-title="Manipulation" data-dot-max="5" data-dot-min="1" data-dot-value="3"></ss-rating>
+        <br />
+        <br />
+        <em>Basic Skill Example</em>
+        <br />
+        <ss-rating id="Athletics" data-dot-title="Athletics" data-dot-max="5" data-dot-min="0" data-dot-value="2"></ss-rating>
+        <br />
+        <br />
+        <em>Elder Skill or Discipline (More than 5 dots)</em>
+        <br />
+        <ss-rating id="Vicissitude" data-dot-title="Vicissitude" data-dot-max="10" data-dot-min="0" data-dot-value="6"></ss-rating>
+        <br />
+        <br />
+        <button onclick="alert($('#Vicissitude').data('dot-value'));">How many dots is my Vicissitude?</button>
+        <br />
+        <br />
+        <em>Squared</em>
+        <br />
+        <ss-rating id="Willpower" data-dot-title="Willpower" data-dot-max="10" data-dot-min="0" data-dot-value="6" data-dot-is-squared="true"></ss-rating>
+        <br />
+        <br />
+        <em>Colorized</em>
+        <br />
+        <ss-rating id="Health" data-dot-title="Health" data-dot-max="12" data-dot-min="0" data-dot-value="6" data-dot-color-empty="#330000" data-dot-color-marked="#aa0000"></ss-rating>
+        <br />
+        <br />
+		<em>Aligned Ratings</em>
+		<div class="divToAlignTo">
+			<ss-rating id="Strength" data-dot-title="Strength" data-dot-max="5" data-dot-min="1" data-dot-value="3"></ss-rating>
+			<ss-rating id="Dexterity" data-dot-title="Dexterity" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+			<ss-rating id="Intelligence" data-dot-title="Intelligence" data-dot-max="5" data-dot-min="1" data-dot-value="2"></ss-rating>
+		</div>
+    </body>
+</html>
