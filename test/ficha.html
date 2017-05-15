@@ -7,8 +7,11 @@
         <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
-		<link rel='stylesheet' href='../src/ssdot.css' type='text/css' />
+				<link rel='stylesheet' href='../src/ssdot.css' type='text/css' />
         <script src="../src/ssdot.js"></script>
+				<script src="../src/filldata.js"></script>
+				<script src="../src/require.js"></script>
+
 
 				<style>
             h3 { font-family: 'Medula One', cursive;
@@ -45,9 +48,9 @@
 
 				<div id="Description" class="container">
 
-					<div id="Name">
-							<em>Name:</em><br>
-							<em>Player:</em><br>
+					<div id="description1">
+							<div id="name"></div>
+							<div id="player"></div>
 							<em>Chronicle: Firenze, 1923</em><br>
 					</div>
 
@@ -73,7 +76,7 @@
 
 					<div id="Physical">
 						<h3>Physical</h3>
-						<ss-rating id="Strength" data-dot-title="Strength" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
+						<ss-rating id="Strength" data-dot-title="Strength" data-dot-max="5" data-dot-min="1" data-dot-value="3"></ss-rating>
 						<ss-rating id="Dexterity" data-dot-title="Dexterity" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
 						<ss-rating id="Stamina" data-dot-title="Stamina" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
 					</div>
@@ -208,5 +211,7 @@
 					</div>
 
 				</div>
-    </body>
+
+		    </body>
+
 </html>
