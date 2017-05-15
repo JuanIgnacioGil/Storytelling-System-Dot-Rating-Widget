@@ -29,6 +29,12 @@
 								border-style: solid;
 								border-width: medium;
 							}
+
+						.experience_box {
+	  					border: 2px solid black ;
+							padding: 15px;
+							width: 50%;
+							}
         </style>
     </head>
 
@@ -51,10 +57,10 @@
 						<em>Concepto:</em><br>
 					</div>
 
-					<div id="Generacion">
+					<div id="Clan">
+						<em>Clan:</em><br>
 						<em>Generación:</em><br>
 						<em>Sire:</em><br>
-						<em>Título:</em><br>
 					</div>
 
 				</div>
@@ -122,49 +128,85 @@
 						<ss-rating id="Subterfugio" data-dot-title="Subterfugio" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
 					</div>
 
+					<div id="Conocimientos">
+						<h3>Conocimientos</h3>
+						<ss-rating id="Académicos" data-dot-title="Académicos" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Informática" data-dot-title="Informática" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Finanzas" data-dot-title="Finanzas" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Investigación" data-dot-title="Investigación" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Leyes" data-dot-title="Leyes" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Linguística" data-dot-title="Linguística" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Medicina" data-dot-title="Medicina" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Ocultismo" data-dot-title="Ocultismo" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Política" data-dot-title="Política" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Ciencia" data-dot-title="Ciencia" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+					</div>
+
+				</div>
+
+				<hr>
+
+				<h2 align="center">Ventajas</div>
+
+				<div id="Ventajas" class="container">
+
+					<div id="Disciplinas">
+						<h3>Disciplinas</h3>
+						<ss-rating id="Auspex" data-dot-title="Auspex" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Presencia" data-dot-title="Presencia" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Celeridad" data-dot-title="Celeridad" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+					</div>
+
+					<div id="Trasfondos">
+						<h3>Trasfondos</h3>
+						<ss-rating id="Generación" data-dot-title="Generación" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Recursos" data-dot-title="Recursos" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+						<ss-rating id="Aliados" data-dot-title="Aliados" data-dot-max="5" data-dot-min="0" data-dot-value="0"></ss-rating>
+					</div>
+
+					<div id="Virtudes">
+						<h3>Virtudes</h3>
+						<ss-rating id="Conciencia" data-dot-title="Conciencia" data-dot-max="5" data-dot-min="0" data-dot-value="1"></ss-rating>
+						<ss-rating id="Autocontrol" data-dot-title="Autocontrol" data-dot-max="5" data-dot-min="0" data-dot-value="1"></ss-rating>
+						<ss-rating id="Coraje" data-dot-title="Coraje" data-dot-max="5" data-dot-min="0" data-dot-value="1"></ss-rating>
+					</div>
 
 
 				</div>
 
 				<hr>
 
+				<div id="Otros" class="container">
 
+					<div id="Humanidad">
+						<h3>Humanidad</h3><br>
+						<ss-rating id="Humanidad" data-dot-title="" data-dot-max="10" data-dot-min="0" data-dot-value="2" data-dot-is-squared="true"></ss-rating>
+						<h3>Fuerza de Voluntad</h3><br>
+						<ss-rating id="Fuerza de Voluntad" data-dot-title="" data-dot-max="10" data-dot-min="0" data-dot-value="1" data-dot-is-squared="true"></ss-rating>
+					</div>
 
+					<div id="Bloodpool">
+						<h3>Reserva de Sangre</h3><br>
+						<ss-rating id="Humanidad" data-dot-title="" data-dot-max="15" data-dot-min="0" data-dot-value="5" data-dot-is-squared="true"></ss-rating>
+						<em>Puntos por turno: 1</em><br>
+					</div>
 
+					<div id="Salud">
+						<h3>Salud</h3><br>
+						<ss-rating id="Tocado" data-dot-title="Tocado" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Magullado" data-dot-title="Magullado -1" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Lesionado" data-dot-title="Lesionado -1" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Herido" data-dot-title="Herido -2" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Herido Grave" data-dot-title="Herido Grave -2" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Lisiado" data-dot-title="Lisiado -5" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
+						<ss-rating id="Incapacitado" data-dot-title="Incapacitado" data-dot-max="1" data-dot-min="0" data-dot-value="0" data-dot-is-squared="true"></ss-rating>
 
-				<em>Basic Attribute Example (Minimum of 1 dot)</em>
-        <br />
-        <ss-rating id="Manipulation" data-dot-title="Manipulation" data-dot-max="5" data-dot-min="1" data-dot-value="3"></ss-rating>
-        <br />
-        <br />
-        <em>Basic Skill Example</em>
-        <br />
-        <ss-rating id="Athletics" data-dot-title="Athletics" data-dot-max="5" data-dot-min="0" data-dot-value="2"></ss-rating>
-        <br />
-        <br />
-        <em>Elder Skill or Discipline (More than 5 dots)</em>
-        <br />
-        <ss-rating id="Vicissitude" data-dot-title="Vicissitude" data-dot-max="10" data-dot-min="0" data-dot-value="6"></ss-rating>
-        <br />
-        <br />
-        <button onclick="alert($('#Vicissitude').data('dot-value'));">How many dots is my Vicissitude?</button>
-        <br />
-        <br />
-        <em>Squared</em>
-        <br />
-        <ss-rating id="Willpower" data-dot-title="Willpower" data-dot-max="10" data-dot-min="0" data-dot-value="6" data-dot-is-squared="true"></ss-rating>
-        <br />
-        <br />
-        <em>Colorized</em>
-        <br />
-        <ss-rating id="Health" data-dot-title="Health" data-dot-max="12" data-dot-min="0" data-dot-value="6" data-dot-color-empty="#330000" data-dot-color-marked="#aa0000"></ss-rating>
-        <br />
-        <br />
-		<em>Aligned Ratings</em>
-		<div class="divToAlignTo">
-			<ss-rating id="Strength" data-dot-title="Strength" data-dot-max="5" data-dot-min="1" data-dot-value="3"></ss-rating>
-			<ss-rating id="Dexterity" data-dot-title="Dexterity" data-dot-max="5" data-dot-min="1" data-dot-value="1"></ss-rating>
-			<ss-rating id="Intelligence" data-dot-title="Intelligence" data-dot-max="5" data-dot-min="1" data-dot-value="2"></ss-rating>
-		</div>
+						<h3>Experiencia</h3>
+						<div align="center">
+							<div class="experience_box">0</div>
+						</div>
+					</div>
+
+				</div>
     </body>
 </html>
