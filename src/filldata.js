@@ -2,17 +2,16 @@
     "use strict";
 
     var data = {
-      "name": "Adolfo Trigonegro",
-      "player": "Quinta",
-      "children": [{
-        "id":"0.9685","name":" contents:queue"},{
-        "id":"0.79281","name":" contents:mqq_error"}]
+      "Name": "Adolfo Trigonegro",
+      "Player": "Quinta",
+      "Chronicle": "Firenze, 1923"
     }
 
     $(function fillData() {
 
-        document.getElementById("name").innerHTML = "<em>Nombre: " + data["name"] + "</em>";
-        document.getElementById("player").innerHTML = "<em>Player: " + data["player"] + "</em>";
+        $.each(data, function(key, value) {
+          $(#description1).append("<div>" + key +": " + value "</div>");
+        });
       })
 
       // After the page finished loading, detect and
