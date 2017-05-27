@@ -4,15 +4,15 @@
     var data = {
       "name": "Adolfo Trigonegro",
       "player": "Quinta",
-      "children": [{
-        "id":"0.9685","name":" contents:queue"},{
-        "id":"0.79281","name":" contents:mqq_error"}]
+      "chronicle": "Firenze, 1923",
+
     }
 
     $(function fillData() {
 
         document.getElementById("name").innerHTML = "<em>Nombre: " + data["name"] + "</em>";
         document.getElementById("player").innerHTML = "<em>Player: " + data["player"] + "</em>";
+        document.getElementById("chronicle").innerHTML = "<em>Chronicle: " + data["chronicle"] + "</em>";
       })
 
       // After the page finished loading, detect and
